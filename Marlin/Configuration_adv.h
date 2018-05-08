@@ -1063,15 +1063,15 @@
  * You'll also need the TMC2208Stepper Arduino library
  * (https://github.com/teemuatlut/TMC2208Stepper).
  */
-//#define HAVE_TMC2208
+#define HAVE_TMC2208
 #if ENABLED(HAVE_TMC2208)  // Choose your axes here. This is mandatory!
-  //#define X_IS_TMC2208
+  #define X_IS_TMC2208
   //#define X2_IS_TMC2208
-  //#define Y_IS_TMC2208
+  #define Y_IS_TMC2208
   //#define Y2_IS_TMC2208
-  //#define Z_IS_TMC2208
+  #define Z_IS_TMC2208
   //#define Z2_IS_TMC2208
-  //#define E0_IS_TMC2208
+  #define E0_IS_TMC2208
   //#define E1_IS_TMC2208
   //#define E2_IS_TMC2208
   //#define E3_IS_TMC2208
