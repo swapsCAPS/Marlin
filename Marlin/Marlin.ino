@@ -66,7 +66,7 @@
   #include <TMC2130Stepper.h>
 #endif
 
-#if ENABLED(HAVE_TMC208)
+#if ENABLED(HAVE_TMC2208)
   #include <TMC2208Stepper_REGDEFS.h>
   #include <TMC2208Stepper.h>
 #endif
