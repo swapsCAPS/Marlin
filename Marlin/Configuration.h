@@ -377,9 +377,9 @@
   // ################
   // PID with one radial fan running at 50%
   // M303 E0 S250 C8
-  //#define DEFAULT_Kp 63.0
-  //#define DEFAULT_Ki 2.25
-  //#define DEFAULT_Kd 440
+  #define  DEFAULT_Kp 28.52
+  #define  DEFAULT_Ki 2.38
+  #define  DEFAULT_Kd 85.51
 
 #endif // PIDTEMP
 
