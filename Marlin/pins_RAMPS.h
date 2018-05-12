@@ -137,23 +137,23 @@
    * Software serial
    */
 
-  #define X_SERIAL_TX_PIN    59 // Needs 1K resistor
+  #define X_SERIAL_TX_PIN    40 // Needs 1K resistor
   #define X_SERIAL_RX_PIN    63
   #define X2_SERIAL_TX_PIN   -1
   #define X2_SERIAL_RX_PIN   -1
 
-  #define Y_SERIAL_TX_PIN    64 // Needs 1K resistor
-  #define Y_SERIAL_RX_PIN    40
+  #define Y_SERIAL_TX_PIN    59 // Needs 1K resistor
+  #define Y_SERIAL_RX_PIN    64
   #define Y2_SERIAL_TX_PIN   -1
   #define Y2_SERIAL_RX_PIN   -1
 
-  #define Z_SERIAL_TX_PIN    44 // Needs 1K resistor
-  #define Z_SERIAL_RX_PIN    42
+  #define Z_SERIAL_TX_PIN    42 // Needs 1K resistor
+  #define Z_SERIAL_RX_PIN    65
   #define Z2_SERIAL_TX_PIN   -1
   #define Z2_SERIAL_RX_PIN   -1
 
-  #define E0_SERIAL_TX_PIN   66 // Needs 1K resistor
-  #define E0_SERIAL_RX_PIN   65
+  #define E0_SERIAL_TX_PIN   44 // Needs 1K resistor
+  #define E0_SERIAL_RX_PIN   66
   #define E1_SERIAL_TX_PIN   -1
   #define E1_SERIAL_RX_PIN   -1
   #define E2_SERIAL_TX_PIN   -1
