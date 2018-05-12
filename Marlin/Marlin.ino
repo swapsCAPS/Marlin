@@ -66,11 +66,6 @@
   #include <TMC2130Stepper.h>
 #endif
 
-#if ENABLED(HAVE_TMC2208)
-  #include <TMC2208Stepper_REGDEFS.h>
-  #include <TMC2208Stepper.h>
-#endif
-
 #if ENABLED(HAVE_L6470DRIVER)
   #include <SPI.h>
   #include <L6470.h>
