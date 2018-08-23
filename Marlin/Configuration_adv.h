@@ -1108,7 +1108,7 @@
   #define Z_CURRENT          800
   #define Z_MICROSTEPS        16
 
-  #define X2_CURRENT         800
+  #define X2_CURRENT         700
   #define X2_MICROSTEPS       16
 
   #define Y2_CURRENT         800
@@ -1117,19 +1117,19 @@
   #define Z2_CURRENT         800
   #define Z2_MICROSTEPS       16
 
-  #define E0_CURRENT         800
+  #define E0_CURRENT         600
   #define E0_MICROSTEPS       16
 
-  #define E1_CURRENT         800
+  #define E1_CURRENT         600
   #define E1_MICROSTEPS       16
 
-  #define E2_CURRENT         800
+  #define E2_CURRENT         600
   #define E2_MICROSTEPS       16
 
-  #define E3_CURRENT         800
+  #define E3_CURRENT         600
   #define E3_MICROSTEPS       16
 
-  #define E4_CURRENT         800
+  #define E4_CURRENT         600
   #define E4_MICROSTEPS       16
 
   /**
